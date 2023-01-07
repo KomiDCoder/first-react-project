@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iransans;
+  src: url(./font/FontsFree-Net-ir_sans.ttf);
+}
+.genre {
+  text-align: right;
+  padding: 30px 20px;
+  background: #121212;
+  color: white;
+  font-family: iransans;
+}
+.genre-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 110px;
+  direction: rtl;
+  width: 100%;
+}
+.genre-title {
+  padding-right: 10px;
+  font-size: 28px;
+  margin: 20px 0 50px 0;
+}

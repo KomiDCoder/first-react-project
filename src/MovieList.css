@@ -1,0 +1,36 @@
+.moviesList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  gap: 20px;
+  font-weight: bold;
+  width: calc(100% / 6);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.moviesList_detail {
+  display: flex;
+  opacity: 0;
+  gap: 10px;
+  width: 100%;
+  justify-content: end;
+  height: calc(100% - 42px);
+  align-items: flex-start;
+  padding: 0 20px 40px 0;
+  flex-direction: column;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 42px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.moviesList_detail:hover {
+  opacity: 1;
+}
+.movie-name {
+  padding-right: 10px;
+}
